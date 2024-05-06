@@ -15,6 +15,9 @@ body {
   font-family: "Lato", sans-serif;
   color: #6e6e6e;
 }
+.text-left {
+  text-align: left;
+}
 .bg-light {
   background-color: white;
 }
@@ -436,6 +439,8 @@ h6 {
 #experience .jobs {
   text-align: left;
   margin-top: 40px;
+  display: flex;
+  flex-direction: column;
 }
 
 #experience .jobs p {
@@ -507,7 +512,7 @@ h6 {
   top: 60px;
 }
 
-#experience .jobs .fourth {
+#experience .jobs .last {
   padding-bottom: 60px;
 }
 
@@ -756,7 +761,7 @@ footer .copyright p a:hover {
   #experience .jobs .third .date::after {
     left: 100%;
   }
-  #experience .jobs .fourth {
+  #experience .jobs .last {
     padding-bottom: 150px;
   }
   #career {
